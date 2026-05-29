@@ -1,0 +1,16 @@
+# Base de datos MariaDB (Ya los tienes correctos)
+DB_HOST=mysql-carloshale26.alwaysdata.net
+DB_PORT=3306
+DB_USER=carloshale26
+DB_PASSWORD=Carlos2204
+DB_NAME=carloshale26_tallermotos
+
+# Sesiones Flask
+SECRET_KEY=clave_temporal_desarrollo
+
+# Correo SMTP (Configuración profesional)
+MAIL_SERVER=smtp.gmail.com
+MAIL_PORT=465
+MAIL_USER=cabreracarlos1415@gmail.com
+MAIL_PASSWORD=caxy qzpa irug klav
+MAIL_TO=cabreracarlos1415@gmail.com
