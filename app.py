@@ -169,4 +169,5 @@ def enviar_alerta():
         return jsonify({"error": "El servidor de correos rechazó la autenticación o conexión"}), 500
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    puerto = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=puerto, debug=True)
